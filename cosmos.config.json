@@ -1,0 +1,15 @@
+{ 
+    "rootPath": ".",
+    "globalImports": [],
+    "hostname": null,
+    "hot": true,
+    "port": 8989,
+    "publicUrl": "/",
+    "watchDirs": ["."],
+    "modulesPath": "cosmos.modules.js",
+    "plugin": {},
+    "componentPaths": [],
+    "ignore": [],
+    "fixturesDir": "__fixtures__",
+    "fixturePaths": []
+}
