@@ -17,7 +17,7 @@ const PreBarcode = () => {
     const dispatch = useDispatch();
 
     const onClearClick = () => {
-        dispatch(delFooText());
+        dispatch(delFooText(null));
     }
 
     const storeText = (e) => {
