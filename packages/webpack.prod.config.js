@@ -56,6 +56,6 @@ module.exports = {
   externals: {
     'react': 'React',
     'react-dom': 'ReactDOM',
-    'reduxjs/toolkit': 'reduxjs/toolkit'
+    'reduxjs/toolkit': 'reduxjs/toolkit',
   },
 };
