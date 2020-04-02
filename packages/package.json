@@ -1,6 +1,6 @@
 {
-  "name": "cosmos",
-  "version": "1.1.0",
+  "name": "@alexmironov/cosmos",
+  "version": "1.1.1",
   "description": " ",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,12 @@
     "cosmos:export": "cosmos-export",
     "build": "webpack --config webpack.prod.config.js"
   },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "Mironov Alexander",
-  "license": "ISC",
   "repository": {},
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
@@ -40,5 +43,5 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
-  "gitHead": "9830f7bfb8117456643b197069601ad5f8b0657c"
+  "gitHead": "e1da6b17c7a93b87a94cccbfbe981748602018ca"
 }
