@@ -1,6 +1,6 @@
 {
   "name": "cosmos",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": " ",
   "main": "index.js",
   "scripts": {
@@ -40,5 +40,5 @@
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
-  "gitHead": "6f8240fca1cac4054e07ee55223a00a8b709827c"
+  "gitHead": "9830f7bfb8117456643b197069601ad5f8b0657c"
 }
