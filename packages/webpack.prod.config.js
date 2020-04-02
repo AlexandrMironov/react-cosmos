@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'production',
   entry: {
-    app: './widgets/index.ts',
+    app: './widgets',
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -20,8 +20,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(tsx|ts|js)?$/,
-        exclude: /(node_modules|bower_components)/,
+        test: /\.(jsx|tsx|ts)?$/,
+        exclude: /(node_modules|__fixtures__)/,
         use: {
           loader: 'babel-loader',
           options: {
@@ -52,5 +52,10 @@ module.exports = {
   },
   resolve: {
     extensions: [ '.tsx', '.ts', '.js' ],
+  },
+  externals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM',
+    'reduxjs/toolkit': 'reduxjs/toolkit'
   },
 };
