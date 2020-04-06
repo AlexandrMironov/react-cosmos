@@ -7,12 +7,6 @@
       ],
       "message": "chore(release): publish",
       "registry": "https://www.npmjs.com/~alexmironov"
-    },
-    "bootstrap": {
-      "ignore": "component-*",
-      "npmClientArgs": [
-        "--no-package-lock"
-      ]
     }
   },
   "packages": [
