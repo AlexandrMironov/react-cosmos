@@ -1,12 +1,12 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   mode: 'production',
   entry: './widgets',
   plugins: [
     new CleanWebpackPlugin(),
-
   ],
   output: {
     filename: 'bundle.js',
@@ -18,10 +18,7 @@ module.exports = {
         test: /\.(jsx|tsx|ts)?$/,
         exclude: /(node_modules|__fixtures__)/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
+          loader: 'ts-loader',
         }
       },
       {

@@ -2,10 +2,10 @@ import React from "react";
 import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 
-// import { Barcode } from "../component/barcode";
+import { Barcode } from "../component/barcode";
 
 
-let container = null;
+let container: HTMLDivElement;
 beforeEach(() => {
   container = document.createElement("div");
   container.setAttribute('id', 'root');
@@ -15,7 +15,6 @@ beforeEach(() => {
 afterEach(() => {
   unmountComponentAtNode(container);
   container.remove();
-  container = null;
 });
 
 it("renders with or without a name", () => {
