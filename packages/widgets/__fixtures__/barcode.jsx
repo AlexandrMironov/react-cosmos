@@ -1,4 +1,4 @@
 import React from 'react';
-import { Barcode } from '../src/Barcode/component/barcode';
+import { Barcode } from '../src/Barcode/components';
 
 export default <Barcode />;

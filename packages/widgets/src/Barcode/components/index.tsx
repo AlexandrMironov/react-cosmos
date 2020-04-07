@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { delFooText, addFooToText } from '../redux/textfieldSlice';
+import { delFooText, addFooToText } from '../redux/index';
 
 import { ReduxProvider } from '../../../utils/ReduxProvider';
 

@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from 'react-redux';
-import textReducer from '../src/Barcode/redux/textfieldSlice';
+import textReducer from '../src/Barcode/redux/index';
 import { render } from 'react-dom';
 import React from 'react';
 
