@@ -13,7 +13,7 @@ const components = require('../components');
 const config = {
   entry: Object.assign({ index: './index' }, components.maps),
   output: {
-    path: path.resolve(BASE_PATH, 'dist'),
+    path: path.resolve(BASE_PATH, 'dist/src'),
     publicPath: '/',
     chunkFilename: '[name].js',
     filename: '[name].js',
