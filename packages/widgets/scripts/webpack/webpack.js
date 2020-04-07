@@ -55,23 +55,23 @@ const config = {
     ],
   },
   plugins: [],
-  externals: {
-    react: {
-      commonjs: 'react',
-      commonjs2: 'react',
-      amd: 'react',
-    },
-    'react-dom': {
-      commonjs: 'react-dom',
-      commonjs2: 'react-dom',
-      amd: 'react-dom',
-    },
-    'styled-components': {
-      commonjs: 'styled-components',
-      commonjs2: 'styled-components',
-      amd: 'styled-components',
-    },
-  },
+  // externals: {
+  //   react: {
+  //     commonjs: 'react',
+  //     commonjs2: 'react',
+  //     amd: 'react',
+  //   },
+  //   'react-dom': {
+  //     commonjs: 'react-dom',
+  //     commonjs2: 'react-dom',
+  //     amd: 'react-dom',
+  //   },
+  //   'styled-components': {
+  //     commonjs: 'styled-components',
+  //     commonjs2: 'styled-components',
+  //     amd: 'styled-components',
+  //   },
+  // },
   performance: {
     hints: false,
   },
