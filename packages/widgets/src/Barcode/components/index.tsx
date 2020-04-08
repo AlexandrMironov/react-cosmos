@@ -2,18 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { delFooText, addFooToText } from '../redux/index';
 
-import { ReduxProvider } from '../../../utils/ReduxProvider';
-
 export const Barcode = () => {
-
-    return (
-        <ReduxProvider>
-            <PreBarcode />
-        </ReduxProvider>);
-
-}
-
-const PreBarcode = () => {
     const dispatch = useDispatch();
 
     const onClearClick = () => {

@@ -13,7 +13,7 @@ const components = require('../components');
 const config = {
   entry: Object.assign({ index: './index' }, components.maps),
   output: {
-    path: path.resolve(BASE_PATH, 'dist/src'),
+    path: path.resolve(BASE_PATH, 'dist'),
     publicPath: '/',
     chunkFilename: '[name].js',
     filename: '[name].js',
@@ -55,23 +55,23 @@ const config = {
     ],
   },
   plugins: [],
-  // externals: {
-  //   react: {
-  //     commonjs: 'react',
-  //     commonjs2: 'react',
-  //     amd: 'react',
-  //   },
-  //   'react-dom': {
-  //     commonjs: 'react-dom',
-  //     commonjs2: 'react-dom',
-  //     amd: 'react-dom',
-  //   },
-  //   'styled-components': {
-  //     commonjs: 'styled-components',
-  //     commonjs2: 'styled-components',
-  //     amd: 'styled-components',
-  //   },
-  // },
+  externals: {
+    react: {
+      commonjs: 'react',
+      commonjs2: 'react',
+      umd: 'react',
+    },
+    'react-dom': {
+      commonjs: 'react-dom',
+      commonjs2: 'react-dom',
+      umd: 'react-dom',
+    },
+    'styled-components': {
+      commonjs: 'styled-components',
+      commonjs2: 'styled-components',
+      umd: 'styled-components',
+    },
+  },
   performance: {
     hints: false,
   },
