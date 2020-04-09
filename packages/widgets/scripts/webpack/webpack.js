@@ -56,7 +56,7 @@ const config = {
   },
   plugins: [],
   externals: {
-    react: {
+    'react': {
       commonjs: 'react',
       commonjs2: 'react',
       umd: 'react',
@@ -70,6 +70,16 @@ const config = {
       commonjs: 'styled-components',
       commonjs2: 'styled-components',
       umd: 'styled-components',
+    },
+    '@reduxjs/toolkit': {
+      commonjs: '@reduxjs/toolkit',
+      commonjs2: '@reduxjs/toolkit',
+      umd: '@reduxjs/toolkit',
+    },
+    'react-redux': {
+      commonjs: 'react-redux',
+      commonjs2: 'react-redux',
+      umd: 'react-redux',
     },
   },
   performance: {

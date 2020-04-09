@@ -7,7 +7,7 @@
 		exports["@alexmironov/cosmos"] = factory(require("react"), require("react-dom"));
 	else
 		root["@alexmironov/cosmos"] = factory(root[undefined], root[undefined]);
-})(window, function(__WEBPACK_EXTERNAL_MODULE__0__, __WEBPACK_EXTERNAL_MODULE__6__) {
+})(window, function(__WEBPACK_EXTERNAL_MODULE__1__, __WEBPACK_EXTERNAL_MODULE__8__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -91,31 +91,31 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 19);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 0:
+/***/ 1:
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__0__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__1__;
 
 /***/ }),
 
-/***/ 19:
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(0);
-module.exports = __webpack_require__(6);
+__webpack_require__(1);
+module.exports = __webpack_require__(8);
 
 
 /***/ }),
 
-/***/ 6:
+/***/ 8:
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__6__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__8__;
 
 /***/ })
 

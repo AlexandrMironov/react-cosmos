@@ -1,4 +1,4 @@
-declare const textReducer: import("@reduxjs/toolkit").Slice<{
+export declare const textReducer: import("@reduxjs/toolkit").Slice<{
     textValue: string;
 }, {
     addFooToText(state: {
@@ -15,4 +15,3 @@ declare const textReducer: import("@reduxjs/toolkit").Slice<{
     }): void;
 }, "widgets/TextField">;
 export declare const addFooToText: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, string>, delFooText: import("@reduxjs/toolkit").ActionCreatorWithPayload<any, string>;
-export default textReducer;

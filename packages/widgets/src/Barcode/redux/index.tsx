@@ -5,7 +5,7 @@ const initialState = {
     textValue: '',
 };
 
-const textReducer = createSlice({
+export const textReducer = createSlice({
     name: 'widgets/TextField',
     initialState,
     reducers: {
@@ -22,5 +22,3 @@ export const {
     addFooToText,
     delFooText,
 } = textReducer.actions;
-
-export default textReducer;
