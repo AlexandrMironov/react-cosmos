@@ -149,7 +149,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __webpack_require__(1);
+var React = __webpack_require__(1);
 
 var react_redux_1 = __webpack_require__(4);
 
@@ -166,15 +166,15 @@ exports.Barcode = function () {
     dispatch(index_1.addFooToText(e.currentTarget.value));
   };
 
-  return react_1.default.createElement("div", {
+  return React.createElement("div", {
     style: {
       display: 'flex',
       flexDirection: 'row',
       padding: '6px'
     }
-  }, react_1.default.createElement("input", {
+  }, React.createElement("input", {
     onChange: storeText
-  }), react_1.default.createElement("button", {
+  }), React.createElement("button", {
     onClick: onClearClick
   }, "Clear text"));
 };
